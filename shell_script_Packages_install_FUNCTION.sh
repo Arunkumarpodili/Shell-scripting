@@ -3,6 +3,7 @@
 
 UID=$(id -u)
 DATE=$(date +"%F-%H-%M")
+#log file is to track the output of the command, file name generated using DATE formate
 LOG_FILE=$DATE
 if [ $UID -ne 0 ]
 then
